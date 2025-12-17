@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ari Setiawan - Web Developer & Digital Marketing</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Portofolio Ari Setiawan - Freelance Web Developer & Digital Marketing. Menerima pembuatan website, landing page, aplikasi web, dan dukungan strategi digital marketing." />
+  <link rel="stylesheet" href="style.css" />
+
+    <!-- SEO tambahan (AMAN) -->
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="Ari Setiawan" />
+
+  <!-- Open Graph (preview WhatsApp / Facebook) -->
+  <meta property="og:title" content="Ari Setiawan - Web Developer & Digital Marketing" />
+  <meta property="og:description" content="Portofolio Ari Setiawan - Freelance Web Developer & Digital Marketing. Menerima pembuatan website, landing page, aplikasi web, dan dukungan strategi digital marketing." />
+  <meta property="og:type" content="website" />
+  <!-- ganti nanti jika sudah online -->
+  <meta property="og:image" content="img/paspoto.jpg" />
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="site-header">
+    <nav class="nav container">
+      <div class="nav__brand">
+        <span class="nav__logo-dot"></span>
+        <span class="nav__logo-text">Ari<span>Dev</span></span>
+      </div>
+      <ul class="nav__links">
+        <li><a href="#home">Beranda</a></li>
+        <li><a href="#services">Layanan</a></li>
+        <li><a href="#projects">Project</a></li>
+        <li><a href="#about">Tentang</a></li>
+        <li><a href="#contact">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO / HOME -->
+    <section id="home" class="hero">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="hero__eyebrow">Freelance Web Developer & Digital Marketing</p>
+          <h1 class="hero__title">Halo, saya <span>Ari Setiawan</span></h1>
+          <p class="hero__subtitle">
+            Saya membantu pemilik usaha dan personal brand untuk punya
+            <strong>website yang rapi</strong> sekaligus <strong>strategi digital marketing</strong>
+            yang terarah. Mulai dari landing page, pengelolaan kampanye, sampai automasi sederhana
+            dengan <strong>Python</strong> dan tools digital.
+          </p>
+
+          <div class="hero__buttons">
+            <a
+              href="https://wa.me/6282282823446?text=Halo%20Ari,%20saya%20tertarik%20dengan%20jasa%20website%20atau%20digital%20marketing"
+              class="btn btn--primary"
+            >
+              Konsultasi Gratis via WhatsApp
+            </a>
+            <a href="#services" class="btn btn--ghost">
+              Lihat Layanan
+            </a>
+          </div>
+
+          <div class="hero__meta">
+            <span>Fokus: Website, landing page, campaign digital, dan automasi sederhana</span>
+          </div>
+        </div>
+
+        <div class="hero__image-wrap">
+          <div class="hero__image-circle">
+            <img
+              src="img/paspoto.jpg"
+              alt="Foto Ari Setiawan"
+              loading="lazy"
+              onload="this.nextElementSibling.style.display='none';"
+              onerror="this.style.display='none';"
+            />
+            <div class="hero__image-placeholder">
+              <span>Foto<br />Kamu</span>
+            </div>
+          </div>
+
+          <div class="hero__badge">
+            <p>Available for freelance</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section">
+      <div class="container">
+        <h2 class="section__title">Layanan yang Saya Tawarkan</h2>
+        <p class="section__subtitle">
+          Fokus pada solusi yang realistis dan bisa langsung dipakai untuk membantu bisnis kamu.
+        </p>
+
+        <div class="cards cards--3">
+          <article class="card">
+            <h3>Website & Landing Page Penjualan</h3>
+            <p>
+              Pembuatan website dan landing page yang fokus ke tujuan: kenalkan brand, kumpulkan leads,
+              atau tingkatkan penjualan. Desain simpel, cepat, dan mudah diakses.
+            </p>
+            <ul class="card__list">
+              <li>Landing page untuk campaign atau produk</li>
+              <li>Responsive untuk HP dan laptop</li>
+              <li>Bisa dihubungkan ke form, WhatsApp, atau email</li>
+            </ul>
+            <p class="card__note">
+            <strong>Cocok untuk:</strong> UMKM, personal brand, dan campaign produk yang butuh website rapi dan fokus konversi.
+            </p>
+
+          </article>
+
+          <article class="card">
+            <h3>Digital Marketing & Campaign</h3>
+            <p>
+              Bantuan menyusun strategi digital marketing sesuai kondisi bisnis.
+              Mulai dari konsep konten, funnel sederhana, sampai eksekusi campaign.
+            </p>
+            <ul class="card__list">
+              <li>Perencanaan konten dan kalender posting</li>
+              <li>Optimasi profil dan copywriting dasar</li>
+              <li>Rancangan sederhana iklan berbayar (Meta atau Google) sesuai kebutuhan</li>
+            </ul>
+            <p class="card__note">
+            <strong>Cocok untuk:</strong> Bisnis yang ingin mulai tertib secara digital tanpa strategi yang terlalu kompleks.
+            </p>
+
+          </article>
+
+          <article class="card">
+            <h3>Otomasi & Tools Pendukung</h3>
+            <p>
+              Pembuatan script dan aplikasi kecil untuk membantu pekerjaan digital marketing
+              atau operasional, seperti pengolahan data dan rekap laporan.
+            </p>
+            <ul class="card__list">
+              <li>Pengolahan data Excel dan laporan</li>
+              <li>Dashboard sederhana untuk monitoring</li>
+              <li>Tools khusus disesuaikan dengan kebutuhan bisnis</li>
+            </ul>
+            <p class="card__note">
+            <strong>Cocok untuk:</strong> Tim kecil atau individu yang ingin menghemat waktu lewat automasi sederhana.
+            </p>
+
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section section--alt">
+      <div class="container">
+        <h2 class="section__title">Beberapa Project</h2>
+        <p class="section__subtitle">
+          Contoh project yang menggambarkan cara saya bekerja dan teknologi yang saya gunakan.
+        </p>
+
+        <div class="cards cards--3">
+          <article class="card card--project">
+            <div class="card__tag">Web App</div>
+            <h3>Rekap Keterlambatan Karyawan</h3>
+            <p>
+              Aplikasi web berbasis Flask untuk mengelola dan menganalisis data keterlambatan karyawan
+              dari file Excel. Menampilkan tabel, ringkasan, dan visualisasi sederhana.
+            </p>
+            <p class="card__tech">
+              Tech: Python (Flask), MySQL, Pandas, OpenPyXL, HTML, CSS, Bootstrap
+            </p>
+            <ul class="card__list">
+            <li><strong>Masalah:</strong> Data keterlambatan karyawan dicatat manual dan sulit dianalisis.</li>
+            <li><strong>Solusi:</strong> Aplikasi web untuk upload file Excel dan rekap otomatis.</li>
+            <li><strong>Hasil:</strong> Monitoring keterlambatan lebih cepat dan data lebih rapi.</li>
+            </ul>
+
+            <div class="card__actions">
+              <a
+                href="https://github.com/arisetiawan0/rekap-telat-web"
+                class="btn btn--ghost btn--sm"
+                target="_blank"
+                rel="noopener"
+              >
+                Lihat Project
+              </a>
+            </div>
+          </article>
+
+          <article class="card card--project">
+            <div class="card__tag">Backend</div>
+            <h3>Klik Beauty - Backend E-Commerce</h3>
+            <p>
+              Backend untuk sistem penjualan produk kecantikan. Fitur meliputi manajemen produk, stok,
+              keranjang belanja, dan rencana integrasi pembayaran online.
+            </p>
+            <p class="card__tech">
+              Tech: Python (FastAPI), REST API, JWT Auth (opsional), MySQL
+            </p>
+            <ul class="card__list">
+            <li><strong>Masalah:</strong> Dibutuhkan backend terstruktur untuk mengelola produk dan transaksi.</li>
+            <li><strong>Solusi:</strong> REST API backend untuk produk, stok, dan keranjang.</li>
+            <li><strong>Hasil:</strong> Sistem siap dikembangkan ke web atau mobile app.</li>
+            </ul>
+
+            <div class="card__actions">
+              <a
+                href="https://github.com/arisetiawan0/klik_beauty"
+                class="btn btn--ghost btn--sm"
+                target="_blank"
+                rel="noopener"
+              >
+                Lihat Project
+              </a>
+            </div>
+          </article>
+
+          <article class="card card--project">
+            <div class="card__tag">Desktop App</div>
+            <h3>Undian Digital Beauty & BEXmart 2025</h3>
+            <p>
+              Aplikasi undian hadiah dengan tampilan GUI dan animasi roll kupon.
+              Menggunakan sistem random yang adil, hasil undian bisa diekspor untuk dokumentasi.
+            </p>
+            <p class="card__tech">
+              Tech: Python, Tkinter, CSV, HMAC-SHA256
+            </p>
+            <ul class="card__list">
+            <li><strong>Masalah:</strong> Proses undian manual berisiko tidak transparan.</li>
+            <li><strong>Solusi:</strong> Aplikasi desktop dengan sistem random dan animasi undian.</li>
+            <li><strong>Hasil:</strong> Proses undian lebih adil dan mudah didokumentasikan.</li>
+            </ul>
+
+            <div class="card__actions">
+              <a
+                href="https://github.com/arisetiawan0/beauty-bexmart-undian"
+                class="btn btn--ghost btn--sm"
+                target="_blank"
+                rel="noopener"
+              >
+                Lihat Project
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container about__grid">
+        <div>
+          <h2 class="section__title">Tentang Saya</h2>
+          <p class="section__subtitle">
+            Saya menggabungkan <strong>skill teknis</strong> sebagai web developer dan
+            <strong>pemahaman digital marketing</strong> untuk membantu bisnis tumbuh lebih terarah.
+          </p>
+          <p class="about__text">
+            Saya berpengalaman mengerjakan proyek berbasis <strong>web dan Python</strong>, seperti
+            aplikasi rekap data, backend e-commerce, serta tools undian digital. Di saat yang sama,
+            saya juga terjun dalam dunia <strong>digital marketing</strong>, mulai dari pengelolaan konten,
+            perencanaan campaign, sampai memahami kebutuhan komunikasi brand ke audiens.
+          </p>
+          <p class="about__text">
+            Dalam bekerja dengan klien, saya berusaha memahami dulu konteks bisnisnya:
+            siapa targetnya, tujuan utamanya apa, lalu menerjemahkannya ke bentuk website atau sistem
+            yang relevan, lengkap dengan dukungan strategi digital yang realistis dan bisa dijalankan.
+          </p>
+        </div>
+
+        <div class="about__highlight">
+          <h3>Ringkasan Skill</h3>
+          <ul>
+            <li><strong>Development</strong>: Python, Flask, FastAPI, HTML, CSS, dasar JavaScript</li>
+            <li><strong>Database</strong>: MySQL, PostgreSQL, SQLite</li>
+            <li><strong>Digital Marketing</strong>: perencanaan konten, basic campaign, pemahaman funnel sederhana</li>
+            <li><strong>Tools</strong>: Git, GitHub, VS Code, dasar penggunaan ads manager</li>
+            <li><strong>Pengolahan data</strong>: Pandas, automasi Excel untuk laporan</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section section--alt">
+      <div class="container contact__grid">
+        <div>
+          <h2 class="section__title">Mulai Diskusi Project</h2>
+          <p class="section__subtitle">
+            Ceritakan sedikit tentang bisnis atau ide kamu. Apakah butuh website, landing page,
+            atau bantuan menyusun langkah awal digital marketing, kita bisa diskusi dulu tanpa komitmen.
+          </p>
+
+          <div class="contact__info">
+            <p><strong>Email:</strong> <a href="mailto:arimohino@gmail.com">arimohino@gmail.com</a></p>
+            <p><strong>WhatsApp:</strong> <a href="https://wa.me/6282282823446">+62 822 8282 3446</a></p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/arisetiawan0" target="_blank" rel="noopener">github.com/arisetiawan0</a></p>
+            <p><strong>Lokasi:</strong> Indonesia</p>
+          </div>
+
+          <div class="contact__cta">
+            <a
+              href="https://wa.me/6282282823446?text=Halo%20Ari,%20saya%20ingin%20diskusi%20project%20website%20atau%20digital%20marketing"
+              class="btn btn--primary"
+            >
+              Chat Sekarang
+            </a>
+          </div>
+        </div>
+
+        <div class="contact__card">
+          <h3>Form Kontak</h3>
+          <p class="contact__note">
+            Isi form di bawah ini, pesan kamu akan dikirim ke email saya.
+          </p>
+          <form
+            class="contact__form"
+            method="POST"
+            action="https://formsubmit.co/arimohino@gmail.com"
+          >
+            <!-- pengaturan FormSubmit -->
+            <input type="hidden" name="_subject" value="Pesan baru dari portfolio Ari" />
+            <input type="hidden" name="_captcha" value="false" />
+            <!-- optional: ganti dengan URL portfolio kamu jika sudah online -->
+            <!-- <input type="hidden" name="_next" value="https://url-portfolio-kamu.com/thank-you.html" /> -->
+
+            <div class="field">
+              <label>Nama</label>
+              <input
+                type="text"
+                name="name"
+                placeholder="Nama lengkap kamu"
+                required
+              />
+            </div>
+
+            <div class="field">
+              <label>Email</label>
+              <input
+                type="email"
+                name="email"
+                placeholder="emailkamu@example.com"
+                required
+              />
+            </div>
+
+            <div class="field">
+              <label>Deskripsi Singkat Project</label>
+              <textarea
+                name="message"
+                rows="4"
+                placeholder="Ceritakan kebutuhan atau ide project kamu..."
+                required
+              ></textarea>
+            </div>
+
+            <button class="btn btn--ghost" type="submit">Kirim</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer__content">
+      <p>© <span id="year"></span> Ari Setiawan. All rights reserved.</p>
+      <p class="footer__note">Dibangun dengan HTML dan CSS, siap dikembangkan lebih lanjut.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

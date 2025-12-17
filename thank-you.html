@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>Terima kasih - Ari Setiawan</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Halaman konfirmasi pengiriman pesan ke Ari Setiawan - Web Developer & Digital Marketing." />
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAVBAR SEDERHANA -->
+  <header class="site-header">
+    <nav class="nav container">
+      <div class="nav__brand">
+        <span class="nav__logo-dot"></span>
+        <span class="nav__logo-text">Ari<span>Dev</span></span>
+      </div>
+      <ul class="nav__links">
+        <li><a href="index.html#home">Beranda</a></li>
+        <li><a href="index.html#services">Layanan</a></li>
+        <li><a href="index.html#projects">Project</a></li>
+        <li><a href="index.html#about">Tentang</a></li>
+        <li><a href="index.html#contact">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section section--alt">
+      <div class="container">
+        <div class="contact__card" style="max-width: 480px; margin: 0 auto; text-align: center;">
+          <h2 class="section__title" style="margin-bottom: 0.5rem;">Terima kasih! 🎉</h2>
+          <p class="section__subtitle" style="margin: 0 auto 1.5rem; font-size: 0.9rem;">
+            Pesan kamu sudah terkirim ke email saya.  
+            Saya akan membaca dan membalas secepat mungkin.
+          </p>
+
+          <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1.8rem;">
+            Kalau urgent atau ingin respon lebih cepat, kamu juga bisa langsung hubungi saya lewat WhatsApp.
+          </p>
+
+          <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+            <a href="index.html#home" class="btn btn--ghost">
+              Kembali ke Beranda
+            </a>
+            <a
+              href="https://wa.me/6282282823446?text=Halo%20Ari,%20saya%20baru%20saja%20isi%20form%20di%20portfolio"
+              class="btn btn--primary"
+            >
+              Chat via WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer__content">
+      <p>© <span id="year"></span> Ari Setiawan. All rights reserved.</p>
+      <p class="footer__note">Dibangun dengan HTML dan CSS, siap dikembangkan lebih lanjut.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
